@@ -67,21 +67,6 @@
             "example": "2023-03-16"
           },
           {
-            "name": "adults",
-            "in": "query",
-            "schema": { "type": "integer" },
-            "description": "Number of adult guests staying",
-            "required": true,
-            "example": "1"
-          },
-          {
-            "name": "children",
-            "in": "query",
-            "schema": { "type": "string" },
-            "description": "Number of children staying if any",
-            "example": "12,9"
-          },
-          {
             "name": "currency",
             "in": "query",
             "schema": { "type": "string" },
@@ -96,6 +81,21 @@
             "description": "Guest nationality ISO-2 code - example (SG)",
             "required": true,
             "example": "US"
+          },
+          {
+            "name": "adults",
+            "in": "query",
+            "schema": { "type": "integer" },
+            "description": "Number of adult guests staying",
+            "required": true,
+            "example": "1"
+          },
+          {
+            "name": "children",
+            "in": "query",
+            "schema": { "type": "string" },
+            "description": "Number of children staying if any",
+            "example": "12,9"
           },
           {
             "name": "guestId",
@@ -390,21 +390,6 @@
             "example": "2023-03-16"
           },
           {
-            "name": "adults",
-            "in": "query",
-            "schema": { "type": "integer" },
-            "description": "Number of adult guests staying",
-            "required": true,
-            "example": "1"
-          },
-          {
-            "name": "children",
-            "in": "query",
-            "schema": { "type": "string" },
-            "description": "Number of children staying if any",
-            "example": "12,9"
-          },
-          {
             "name": "guestNationality",
             "in": "query",
             "schema": { "type": "string" },
@@ -419,6 +404,21 @@
             "description": "Currency code - example (USD)",
             "required": true,
             "example": "USD"
+          },
+          {
+            "name": "adults",
+            "in": "query",
+            "schema": { "type": "integer" },
+            "description": "Number of adult guests staying",
+            "required": true,
+            "example": "1"
+          },
+          {
+            "name": "children",
+            "in": "query",
+            "schema": { "type": "string" },
+            "description": "Number of children staying if any",
+            "example": "12,9"
           },
           {
             "name": "guestId",
