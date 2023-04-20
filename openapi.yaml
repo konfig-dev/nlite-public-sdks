@@ -12,7 +12,7 @@ info:
 servers:
   - url: https://api.liteapi.travel/v1.0
 security:
-  - apiKeyAuth: []
+  - apikeyAuth: []
 components:
   securitySchemes:
     apikeyAuth:
